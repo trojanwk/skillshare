@@ -9,6 +9,21 @@ All notable changes to skillshare are documented here. For the full commit histo
 
 ---
 
+## [0.26.4] - 2026-10-24
+
+
+### New Features
+
+* **ui:** import several installed plugins at once ([8e43cc5](https://github.com/runkids/skillshare/commit/8e43cc5ce69a734514bb306be2b729d5796c5c7f))
+* **update:** flag and protect skills edited since install ([#622](https://github.com/runkids/skillshare/issues/622)) ([7a7ccee](https://github.com/runkids/skillshare/commit/7a7cceefabfdae77e8e047e9028856f0021bf9c4))
+
+
+### Bug Fixes
+
+* **ui:** center single-line rows in the plugin update dialog ([5ba6266](https://github.com/runkids/skillshare/commit/5ba626696ea3ed1e08a2cd21468cea000613c3fa))
+* **ui:** offer a tracked repo's Update only when a check finds it behind ([#619](https://github.com/runkids/skillshare/issues/619)) ([e441b57](https://github.com/runkids/skillshare/commit/e441b57f0e69779e90dbbb928003b70c12810fca))
+* **version:** refetch the skill version when a newer CLI release is cached ([#620](https://github.com/runkids/skillshare/issues/620)) ([265f518](https://github.com/runkids/skillshare/commit/265f518cc41f12efb1b9c737566347e4fe0716a1))
+
 ## [0.26.3] - 2026-10-23
 
 ### New Features
